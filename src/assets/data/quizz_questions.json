@@ -1,0 +1,62 @@
+{
+    "title":"What Kind of Adventurer Are You?",
+    "questions":[
+      {
+        "id":1,
+        "question": " What is your ideal way to spend a day off?",
+        "options":[
+          {"id": 1, "name":"Exploring nature and going on a hike", "alias":"A"},
+          {"id": 2, "name":"Relaxing at home with a good book or movie", "alias":"B"},
+          {"id": 3, "name":"Trying out a new restaurant or cafe", "alias":"C"},
+          {"id": 4, "name":"Engaging in a competitive sport or physical activity", "alias":"D"}
+        ]
+      },
+      {
+        "id":2,
+        "question": "Choose a fictional world to visit:",
+        "options":[
+          {"id": 1, "name":"Middle-earth (The Lord of the Rings)", "alias":"A"},
+          {"id": 2, "name":"Hogwarts (Harry Potter)", "alias":"B"},
+          {"id": 3, "name":"The Matrix", "alias":"C"},
+          {"id": 4, "name":"Narnia (The Chronicles of Narnia)", "alias":"D"}
+        ]
+      },
+      {
+        "id":3,
+        "question": "What's your preferred mode of transportation?",
+        "options":[
+          {"id": 1, "name":"Horseback riding", "alias":"A"},
+          {"id": 2, "name":"Teleportation", "alias":"B"},
+          {"id": 3, "name":"Electric scooter", "alias":"C"},
+          {"id": 4, "name":" Fast car", "alias":"D"}
+        ]
+      },
+      {
+        "id":4,
+        "question": "What's your approach to solving problems?",
+        "options":[
+          {"id": 1, "name":"Analyzing the situation and making a strategic plan", "alias":"A"},
+          {"id": 2, "name":"Consulting with friends or seeking advice", "alias":"B"},
+          {"id": 3, "name":"Going with the flow and adapting as needed", "alias":"C"},
+          {"id": 4, "name":"Confronting challenges head-on with determination", "alias":"C"}
+          
+        ]
+      },
+      {
+        "id":5,
+        "question": "What's your favorite type of weather?",
+        "options":[
+          {"id": 1, "name":"Sunny and warm", "alias":"A"},
+          {"id": 2, "name":"Rainy and cozy", "alias":"B"},
+          {"id": 2, "name":"Snowy and cold", "alias":"C"},
+          {"id": 2, "name":"Windy and unpredictable", "alias":"D"}
+        ]
+      }
+    ],
+    "results":{
+      "A": "teste",
+      "B": "You're a Bookworm Dreamer! Your adventures often take place in the realms of imagination and fiction.",
+      "C": "You're a Urban Wanderer! The city is your playground, and you find excitement in exploring its diverse offerings.",
+      "D": "You're a Thrill-Seeker! Whether it's through sports or other physical activities, you crave the adrenaline rush of excitement.."
+    }
+  }

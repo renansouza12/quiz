@@ -1,0 +1,12 @@
+<div class="result_container">
+    <app-logo/>
+  
+    <div class="result">
+        <h3>The result is:</h3>
+        <h2>{{result}}</h2>
+   </div>
+ 
+   <span>Congratulations</span>
+
+   <app-button  (btnEvent)="restartQuiz()" [btnText]="'Restart Quiz'" />
+</div>

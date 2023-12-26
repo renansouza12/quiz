@@ -1,0 +1,35 @@
+button{
+    background-color: transparent;
+    color: var(--White);
+    border: none;
+    font-size: var(--s-sizing);
+    letter-spacing: 1px;
+    cursor: pointer;
+    height: 3rem;
+    width: 400px;
+    transition: .5s .5s;
+    position: relative;
+}
+button:hover{
+    background-color: var(--White);
+    color: var(--Black);
+}
+button::after,button::before{
+    position: absolute;
+    content: '';
+    background: var(--White);
+    height: 1px;
+    width: 0%;
+    transition: .5s;
+}
+button::after{
+    top: 0;
+    left: 0;
+}
+button::before{
+    bottom: 0;
+    right: 0;
+}
+button:hover::after,button:hover::before{
+    width: 100%;
+}

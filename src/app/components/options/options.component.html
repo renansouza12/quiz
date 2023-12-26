@@ -1,0 +1,9 @@
+<div class="options" >
+    <app-button 
+    *ngFor="let option of options" 
+    [btnText]="option.name"
+    (btnEvent)="optionChoose(option.alias)"
+    />
+   
+</div>
+
