@@ -6,7 +6,7 @@ button{
     letter-spacing: 1px;
     cursor: pointer;
     height: 3rem;
-    width: 400px;
+    width: 30vw;
     transition: .5s .5s;
     position: relative;
 }
@@ -32,4 +32,10 @@ button::before{
 }
 button:hover::after,button:hover::before{
     width: 100%;
+}
+@media (max-width:425px) {
+    button{
+        font-size: 13px;
+        width: 160px;
+    }
 }
